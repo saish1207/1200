@@ -1,0 +1,7 @@
+function isTouching () {
+  if(wall.x-bullet.x<wall.width/2+bullet.width/2){
+    bullet.velocityX = 0 ;
+    return true ;
+  }
+  return false ;
+}
